@@ -1,6 +1,8 @@
  Bacteria [] colony; //declare bacteria variables here    
  void setup()    
  {           
+    size(600,700);
+    background(#A9A9A9);
     colony = new Bacteria[10];   
     for(int i=0;i<colony.length;i++)
     {
@@ -29,6 +31,7 @@
  }   
      void show()
 {
+    fill(((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)));
     ellipse(x,y,50,50);
     }
 }    
