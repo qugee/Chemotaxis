@@ -32,13 +32,13 @@
  y=y+(int)(Math.random()*10)-1;
  else if (mouseX<x && mouseY>y)
  x=x+(int)(Math.random()*10)-1;
- y=y+(int)(Math.random()*3)-10;
+ y=y+(int)(Math.random()*5)-10;
  else if (mouseX>x && mouseY<y)
- x=x+(int)(Math.random()*3)-10;
+ x=x+(int)(Math.random()*5)-10;
  y=y+(int)(Math.random()*10)-1;
  else
- x=x+(int)(Math.random()*3)-10;
- y=y+(int)(Math.random()*3)-10;
+ x=x+(int)(Math.random()*5)-10;
+ y=y+(int)(Math.random()*5)-10;
  }   
      void show()
 {
