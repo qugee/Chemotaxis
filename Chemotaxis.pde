@@ -3,10 +3,11 @@
  {           
     size(600,700);
     background(#A9A9A9);
+    noLoop();
     colony = new Bacteria[10];   
     for(int i=0;i<colony.length;i++)
     {
-      colony[i]=new Bacteria();  
+      colony[i]= new Bacteria();  
     }
      }    
      void draw()    
