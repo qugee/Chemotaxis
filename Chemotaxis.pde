@@ -27,18 +27,8 @@
     }
     void move()
  { 
- if (mouseX<x && mouseY<y)
  x=x+(int)(Math.random()*3)-1;
  y=y+(int)(Math.random()*3)-1;
- else if (mouseX<x && mouseY>y)
- x=x+(int)(Math.random()*3)-1;
- y=y+(int)(Math.random()*5)-5;
- else if (mouseX>x && mouseY<y)
- x=x+(int)(Math.random()*5)-5;
- y=y+(int)(Math.random()*3)-1;
- else
- x=x+(int)(Math.random()*5)-5;
- y=y+(int)(Math.random()*5)-5;
  }   
      void show()
 {
