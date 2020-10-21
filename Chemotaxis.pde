@@ -32,6 +32,8 @@
  }   
      void show()
 {
+    stroke(#000000);
+   fill(#FFFFFF);
     ellipse(x,y,50,50);
     }
 }    
