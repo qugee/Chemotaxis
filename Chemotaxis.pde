@@ -3,7 +3,6 @@
  {           
     size(600,700);
     background(#00FFFF);
-    noLoop();
     colony = new Bacteria[10];   
     for(int i=0;i<colony.length;i++)
     {
