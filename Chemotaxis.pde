@@ -26,8 +26,8 @@ for(int i=0;i<colony.length;i++){
     }
     void walk()
  { 
-  myX=myX+(int)(Math.random()*9)-5;
-  myY=myY+(int)(Math.random()*9)-5;
+  myX=myX+(int)(Math.random()*11)-5;
+  myY=myY+(int)(Math.random()*11)-5;
  if(myX>600)
  {
  myX=0;
@@ -48,6 +48,6 @@ for(int i=0;i<colony.length;i++){
      void show()
 {
    fill(250,165,0);
-    ellipse(myX,myY,10,10);
+    ellipse(myX,myY,20,20);
     }
 }    
