@@ -20,11 +20,10 @@
          }   
          class Bacteria     
 {              
-    int myX,myY;
+    int myX, myY;
     Bacteria()
     {
-        myX=300;
-        myY=300;
+        myX = myY = 300;
     }
     void walk()
  { 
@@ -36,7 +35,7 @@
  {
  myX=myX+(int)(Math.random()*5)-1;
  }
- if (mouseY<y)
+ if (mouseY<myY)
  {
  myY=myY+(int)(Math.random()*5)-3;
  }
