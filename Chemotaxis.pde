@@ -12,7 +12,7 @@
      {                     
      background(0,100,225);
      for(int i=0;i<colony.length;i++){
-         colony[i].move();
+         colony[i].walk();
          colony[i].show();
          }
          //move and show the bacteria    
