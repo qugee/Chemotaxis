@@ -42,6 +42,22 @@ for(int i=0;i<colony.length;i++){
  {
  myY=myY+(int)(Math.random()*5)-1;
  }
+ if(myX>600)
+ {
+ myX=0;
+ }
+ if(myX<0)
+ {
+ myX=600;
+ }
+ if(myY>700)
+ {
+ myY=0;
+ }
+ if(myY<0)
+ {
+ myY=700;
+ }
  }   
      void show()
 {
