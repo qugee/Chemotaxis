@@ -20,34 +20,34 @@
          }   
          class Bacteria     
 {              
-    int x,y;
+    int myX,myY;
     Bacteria()
     {
-        x=300;
-        y=300;
+        myX=300;
+        myY=300;
     }
     void walk()
  { 
-  if (mouseX<x)
+  if (mouseX<myX)
   {
- x=x+(int)(Math.random()*5)-3;
+ myX=myX+(int)(Math.random()*5)-3;
   }
  else
  {
- x=x+(int)(Math.random()*5)-1;
+ myX=myX+(int)(Math.random()*5)-1;
  }
  if (mouseY<y)
  {
- y=y+(int)(Math.random()*5)-3;
+ myY=myY+(int)(Math.random()*5)-3;
  }
  else
  {
- y=y+(int)(Math.random()*5)-1;
+ myY=myY+(int)(Math.random()*5)-1;
  }
  }   
      void show()
 {
    fill(250,0,0);
-    ellipse(x,y,10,10);
+    ellipse(myX,myY,10,10);
     }
 }    
