@@ -28,13 +28,21 @@
     void move()
  { 
   if (mouseX<x)
+  {
  x=x+(int)(Math.random()*5)-3;
+  }
  else
+ {
  x=x+(int)(Math.random()*5)-1;
+ }
  if (mouseY<y)
+ {
  y=y+(int)(Math.random()*5)-3;
+ }
  else
+ {
  y=y+(int)(Math.random()*5)-1;
+ }
  }   
      void show()
 {
