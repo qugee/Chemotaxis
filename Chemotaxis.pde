@@ -11,6 +11,7 @@
      }    
      void draw()    
      {             
+        redraw();
          for(int i=0;i<colony.length;i++){
          colony[i].move();
          colony[i].show();
