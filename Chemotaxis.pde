@@ -1,11 +1,11 @@
- Bacterias[] colony; //declare bacteria variables here    
+ bacterias[] colony; //declare bacteria variables here    
  void setup()    
  {           
     size(600,700);
-    colony = new Bacterias[10];   
+    colony = new bacterias[10];   
     for(int i=0;i<colony.length;i++)
     {
-      colony[i]= new Bacterias();  
+      colony[i]= new bacterias();  
     }
      }    
      void draw()    
@@ -17,10 +17,10 @@
          }
          //move and show the bacteria    
          }   
-         class Bacterias   
+         class bacterias   
 {              
     int myX, myY;
-    Bacterias()
+    bacterias()
     {
         myX = myY = 300;
     }
