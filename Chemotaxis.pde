@@ -1,4 +1,4 @@
- Bacteria [] colony; //declare bacteria variables here    
+ Bacteria[] colony; //declare bacteria variables here    
  void setup()    
  {           
     size(600,700);
