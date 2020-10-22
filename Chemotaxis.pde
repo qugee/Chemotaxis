@@ -26,7 +26,7 @@
     }
     void walk()
  { 
-  if (mouseX<myX)
+  if (mouseX>myX)
   {
  myX=myX+(int)(Math.random()*5)-3;
   }
@@ -34,7 +34,7 @@
  {
  myX=myX+(int)(Math.random()*5)-1;
  }
- if (mouseY<myY)
+ if (mouseY>myY)
  {
  myY=myY+(int)(Math.random()*5)-3;
  }
