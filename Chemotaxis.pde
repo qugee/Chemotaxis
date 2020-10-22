@@ -48,6 +48,6 @@ for(int i=0;i<colony.length;i++){
      void show()
 {
    fill(250,165,0);
-    ellipse(myX,myY,20,20);
+    ellipse(myX,myY,50,50);
     }
 }    
