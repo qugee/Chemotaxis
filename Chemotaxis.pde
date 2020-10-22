@@ -26,22 +26,8 @@ for(int i=0;i<colony.length;i++){
     }
     void walk()
  { 
-  if (mouseX>myX)
-  {
- myX=myX+(int)(Math.random()*5)-3;
-  }
- else
- {
- myX=myX+(int)(Math.random()*5)-1;
- }
- if (mouseY>myY)
- {
- myY=myY+(int)(Math.random()*5)-3;
- }
- else
- {
- myY=myY+(int)(Math.random()*5)-1;
- }
+  myX=myX+(int)(Math.random()*3)-1;
+  myY=myY+(int)(Math.random()*3)-1;
  if(myX>600)
  {
  myX=0;
