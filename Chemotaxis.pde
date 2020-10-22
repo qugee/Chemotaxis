@@ -26,8 +26,8 @@ for(int i=0;i<colony.length;i++){
     }
     void walk()
  { 
-  myX=myX+(int)(Math.random()*3)-1;
-  myY=myY+(int)(Math.random()*3)-1;
+  myX=myX+(int)(Math.random()*9)-5;
+  myY=myY+(int)(Math.random()*9)-5;
  if(myX>600)
  {
  myX=0;
