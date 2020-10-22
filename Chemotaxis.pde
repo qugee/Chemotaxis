@@ -45,7 +45,6 @@
  }   
      void show()
 {
-  stroke(0);
    fill(250,165,0);
     ellipse(myX,myY,10,10);
     }
