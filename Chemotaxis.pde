@@ -1,7 +1,6 @@
  bacterias[] colony; //declare bacteria variables here    
  void setup()    
  {                
- background(0,100,225);
     size(600,700);
     colony = new bacterias[10];   
     for(int i=0;i<colony.length;i++)
@@ -11,7 +10,8 @@
      }    
      void draw()    
      {                     
-     for(int i=0;i<colony.length;i++){
+      background(0,100,225);
+for(int i=0;i<colony.length;i++){
          colony[i].walk();
          colony[i].show();
          }
