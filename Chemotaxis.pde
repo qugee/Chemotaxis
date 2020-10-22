@@ -2,7 +2,6 @@
  void setup()    
  {           
     size(600,700);
-        background(0,100,225);
     colony = new bacterias[10];   
     for(int i=0;i<colony.length;i++)
     {
@@ -10,7 +9,8 @@
     }
      }    
      void draw()    
-     {             
+     {                     
+     background(0,100,225);
      for(int i=0;i<colony.length;i++){
          colony[i].move();
          colony[i].show();
