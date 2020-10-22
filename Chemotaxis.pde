@@ -25,7 +25,7 @@
         x=300;
         y=300;
     }
-    void move()
+    void walk()
  { 
   if (mouseX<x)
   {
