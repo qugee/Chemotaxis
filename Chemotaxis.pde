@@ -10,7 +10,7 @@
      }    
      void draw()    
      {             
-    background(0,0,100);
+    background(0,100,225);
          for(int i=0;i<colony.length;i++){
          colony[i].move();
          colony[i].show();
